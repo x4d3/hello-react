@@ -29,7 +29,6 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "postbuild": "react-snap",
     "format": "prettier --write .",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
     "start": "react-scripts start",
@@ -59,7 +58,6 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.4.1",
-    "prettier-eslint": "^13.0.0",
-    "react-snap": "^1.23.0"
+    "prettier-eslint": "^13.0.0"
   }
 }
